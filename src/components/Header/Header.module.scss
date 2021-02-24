@@ -1,0 +1,93 @@
+.content {
+    grid-area: header;
+    height: 50px;
+    background-color: var(--colorMainDarkGrey);
+    color: white;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+}
+
+/*Белые зоны-контейнеры, в которых лежат интерактивные элементы*/
+.elementContainer {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+    background-color: white;
+    color: black;
+}
+
+/*Серые зоны-контейнеры, в которых неактивные элементы*/
+.elementContainer.inactive {
+    background-color: rgb(153, 145, 145);
+}
+
+
+/*Иконки в этих контейнерах*/
+.elementContainer img {
+    width: 50%;
+    height: 50%;
+}
+
+/*Иконки в этих контейнерах*/
+.elementContainer.alertable img {
+    grid-area: overlap; 
+}
+
+/*Круглый контейнер*/
+.elementContainer.round {
+    border-radius: 50%;
+}
+
+/*Прямоугольный контейнер*/
+.elementContainer.rect {
+    border-radius: 10px;
+}
+
+/*Контейнер может содержать метку об обновлениях (Оранжевый кружок)*/
+.elementContainer.alertable {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'overlap';
+}
+
+/*Иконки в этих контейнерах*/
+.elementContainer.clickable:hover {
+    cursor: pointer;
+}
+
+/*Метка о новом событии*/
+.alertMarker {
+    width: 35%;
+    height: 35%; 
+    background-color: red; 
+    border-radius: 50%; 
+    grid-area: overlap; 
+    align-self: start; 
+    justify-self: end;
+}
+
+/*Контейнер иконки "Домой" в модальниках*/
+.homeIconContainer {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/*Иконки в этих контейнерах*/
+.homeIconContainer:hover {
+    cursor: pointer;
+}
+
+/*Иконка "Домой" в модальниках*/
+.homeIconContainer img {
+    width: 100%;
+    height: 100%;
+}

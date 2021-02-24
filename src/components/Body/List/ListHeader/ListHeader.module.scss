@@ -1,0 +1,79 @@
+
+
+.inboxItem {
+    padding-left: 5px;
+}
+
+.content {
+    height: 50px;
+    background-color: var(--colorLightBlue);
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    justify-content: space-between;
+    align-items: center;
+
+    .iconButton {
+        color: white;
+        font-size: 1rem;
+
+        .icon {
+            width: 30px; 
+            height: 30px;
+        }
+    }
+
+    .select {
+        color: white;
+    }
+}
+
+.iconButton {
+    font-size: 1rem;
+    grid-area: overlap; 
+  
+    .icon {
+        width: 30px; 
+        height: 30px;
+    }
+}
+
+.alertableContent {
+    grid-area: overlap;
+    padding-top: 8px;
+    padding-right: 8px;
+}
+
+/*Иконки в этих контейнерах*/
+.alertable iconButton {
+    grid-area: overlap; 
+}
+
+/*Контейнер может содержать метку об обновлениях (Оранжевый кружок)*/
+.alertable {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'overlap';
+}
+/*Метка о новом событии*/
+.alertMarkerStart {
+    width: 14px;
+    height: 14px; 
+    background-color: red; 
+    border-radius: 50%; 
+    grid-area: overlap; 
+    align-self: start; 
+    justify-self: start;
+    z-index: 10;
+}
+
+.alertMarkerEnd {
+    width: 14px;
+    height: 14px; 
+    background-color: red; 
+    border-radius: 50%; 
+    grid-area: overlap; 
+    align-self: start; 
+    justify-self: end;
+    z-index: 10;
+}

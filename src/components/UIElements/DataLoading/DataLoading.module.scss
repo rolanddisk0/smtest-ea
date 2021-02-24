@@ -1,0 +1,27 @@
+.initializationGrid {
+  background-color: var(--colorLightGrey);
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 1em;
+  justify-items: center;
+}
+
+.initializationSpinnerContainer {
+  align-self: end;
+}
+
+.initializationTextContainer {
+  align-self: start;
+  text-align: center;
+
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.initializationText {
+  color: var(--colorMainDarkGrey);
+  font-size: xx-large;
+  font-weight: bold;
+}

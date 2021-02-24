@@ -1,0 +1,39 @@
+.actions {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.link {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+.title {
+  text-align: center;
+}
+
+.listIcon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*Сетка Имя секции - Поля*/
+.grid {
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+}
+
+/*Имена полей*/
+.fieldNames {
+  text-align: left;
+  padding-right: 16px;
+}
+
+/*Защита от длинных значений*/
+.noOverflowTextContainer {
+  white-space: nowrap;
+  overflow: hidden; 
+  text-overflow: ellipsis;
+}

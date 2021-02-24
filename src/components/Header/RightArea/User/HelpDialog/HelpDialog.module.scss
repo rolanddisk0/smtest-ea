@@ -1,0 +1,34 @@
+.actions {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.listIcon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.links {
+  margin-top: 1em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  column-gap: 1em;
+}
+
+.logoContainer {
+  justify-self: center;
+  align-self: center;
+}
+
+.ditLogo {
+  width: 160px;
+  height: 180px;
+}

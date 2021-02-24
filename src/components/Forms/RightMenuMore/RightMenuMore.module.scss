@@ -1,0 +1,28 @@
+.actions {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 1em;
+  justify-content: end;
+  justify-items: end;
+  margin: 20px;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.link {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+.tableHeader {
+  text-align: center;
+}
+
+.searchField {
+  margin-bottom: 1em;
+}

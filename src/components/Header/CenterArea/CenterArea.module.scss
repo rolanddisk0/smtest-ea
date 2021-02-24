@@ -1,0 +1,53 @@
+.content {
+    justify-self: center;
+    margin: 0 8px;
+
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 4fr 1fr 1fr;
+    align-content: center;
+    column-gap: 1em;
+}
+
+.containerShort {
+    width: 40px;
+    height: 40px;
+}
+
+.containerWide {
+    grid-template-columns: repeat(4, 1fr);
+    width: 160px;
+    height: 40px;
+}
+
+.containerWideNarrow {
+    grid-template-columns: 1fr 4fr;
+    width: 160px;
+    height: 30px;
+    align-self: center;
+}
+
+.searchInputContainer {
+    justify-self: start;
+   
+}
+
+.searchInput {
+    width: 90%;
+    box-sizing : border-box;
+    border: none;
+    outline: none;
+}
+
+.searchInput:active {
+    border: none;
+    outline: none;
+}
+
+.searchInput:focus {
+    border: none;
+    outline: none;
+}
+
+.btnEnabled {
+    background-color: orange;
+}

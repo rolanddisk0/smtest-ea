@@ -1,0 +1,48 @@
+.content {
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+    grid-template-rows: auto;
+    gap: 0.5em;
+}
+
+/*Название секции (Классификация, Назначение, Связи...)*/
+.sectionName {
+    font-weight: bold;
+}
+
+/*Сетка Имя секции - Поля*/
+.grid {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+}
+
+/*Сетка Имя поля - Значение*/
+.gridClassification {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    align-items: center;
+}
+
+.gridClassificationEditMode {
+    row-gap: 0.5em;
+}
+
+/*Имена полей*/
+.fieldNames {
+    text-align: right;
+    padding-right: 16px;
+}
+
+/*Значения полей*/
+.fieldValue {
+    color: blue;
+    text-decoration: none;
+}
+
+/*Защита от длинных значений*/
+.noOverflowTextContainer {
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}

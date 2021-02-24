@@ -1,0 +1,113 @@
+.DragHandleIcon {
+  flex: 0 0 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  //background-color: var(--colorMainDarkGrey);
+}
+
+.tableRow {
+  :last-child {
+    .td {
+      border-bottom: 0;
+    }
+  }
+  //border-bottom: 1px solid rgb(59, 59, 66)
+}
+
+.tableRow:hover > div{
+  background-color: rgb(152, 184, 231);
+}
+
+.tableRow:nth-child(even) {
+  background-color: #EEE7E7;
+}
+
+.headerRow {
+  :last-child {
+    .td {
+      border-bottom: 0;
+    }
+  }
+  //border-bottom: 1px solid rgb(59, 59, 66);
+}
+
+.tableCell {
+  margin: 0;
+  padding: 0 0 0 0.5rem;
+  border-right: 1px solid rgb(59, 59, 66);
+  position: relative;
+  height: 20px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  :last-child {
+    border-right: 0;
+  }
+}
+
+.headerCell {
+  margin: 0;
+  padding: 0 0 0 0.5rem;
+  border-right: 1px solid rgb(59, 59, 66);
+  background-color: var(--colorMainDarkGrey);
+  color: white;
+  position: relative;
+  height: 20px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  font-weight: 600;
+
+  :last-child {
+    border-right: 0;
+  }
+}
+
+.resizer {
+  right: 0;
+  //background: blue;
+  width: 10px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  touch-action :none;
+  background-color: var(--colorMainDarkGrey);
+  border: 1px solid rgb(59, 59, 66);
+  cursor: col-resize;
+}
+
+.resizing {
+    background: red;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+.purple {
+  color: purple;
+}
+
+.selectedRow {
+  background-color: #b0c7e8 !important; //TODO убрать
+}
+
+.subRow {
+  background-color: #dfe8f1;
+}
+
+.subRow:nth-child(even) {
+  background-color: #c9d4df;
+}

@@ -1,0 +1,83 @@
+.content {
+  padding: 0 10%;
+}
+
+.link {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/*Сетка для заголовка*/
+.titleGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1em;
+  align-items: center;
+}
+
+/*Иконка диалога*/
+.dialogIcon {
+  width: 80px;
+  height: 80px;
+}
+
+/*Заголовок*/
+.title {
+  font-weight: bold;
+  font-size: x-large;
+  justify-self: start;
+}
+
+.logoContainer {
+  justify-self: end;
+}
+
+/*Общая сетка для содержимого*/
+.contentGrid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 1em;
+  row-gap: 0.5em;
+  align-items: center;
+}
+
+.field {
+  justify-self: end;
+  text-align: end;
+}
+
+.multilineField {
+  align-self: start;
+  justify-self: end;
+  text-align: end;
+}
+
+/*Контейнер иконки "Домой" в модальниках*/
+.homeIconContainer {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/*Иконки в этих контейнерах*/
+.homeIconContainer:hover {
+  cursor: pointer;
+}
+
+.managersContainer {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  background-color: #EEE7E7;
+  margin: 2em 0;
+}

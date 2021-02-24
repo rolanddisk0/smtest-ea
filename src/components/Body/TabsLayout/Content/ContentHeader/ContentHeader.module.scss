@@ -1,0 +1,27 @@
+.content {
+    grid-area: cHeader;
+    height: stretch;
+    padding: 8px;
+
+    display: grid;
+    grid-template-columns: 2fr 4fr 4fr 4fr 4fr 4fr;
+    justify-content: space-around;
+}
+
+.content.green {
+    background-color: var(--colorLightGreen);
+}
+.content.yellow {
+    background-color: var(--colorLightYellow);
+}
+.content.red {
+    background-color: var(--colorLightRed);
+}
+
+.item {
+    padding: 8px;
+}
+
+.itemValue {
+    font-weight: bold;
+}

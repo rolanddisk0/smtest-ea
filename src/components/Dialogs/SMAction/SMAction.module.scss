@@ -1,0 +1,12 @@
+.actions {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 1em;
+  justify-content: end;
+  justify-items: end;
+  margin: 20px;
+}
+
+.title {
+  text-align: center;
+}

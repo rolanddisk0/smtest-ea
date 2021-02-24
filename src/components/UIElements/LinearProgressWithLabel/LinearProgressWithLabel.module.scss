@@ -1,0 +1,6 @@
+.progressLineGrid {
+    display: grid;
+    grid-template-columns: 10fr auto;
+    column-gap: 1em;
+    align-items: center;
+}

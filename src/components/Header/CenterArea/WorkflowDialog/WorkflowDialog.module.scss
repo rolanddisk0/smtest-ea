@@ -1,0 +1,43 @@
+.actions {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.title {
+    text-align: center;
+}
+
+.historyMainGrid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 1em;
+    row-gap: 0.5em;
+    justify-content: start;
+    justify-items: center;
+    align-items: center;
+}
+
+.historyChipContainer {
+    width: 150px;
+}
+
+.historyContainer {
+    align-self: center;
+}
+
+.arrowIcon {
+    display: flex;
+    align-items: center;
+}
+
+.historyTitle {
+    font-size: large;
+    margin-bottom: 1em;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 850px 1fr;
+    column-gap: 1em;
+}

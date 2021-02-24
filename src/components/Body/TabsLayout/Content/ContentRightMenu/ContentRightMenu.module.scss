@@ -1,0 +1,67 @@
+.grid {
+  height:  100%;
+  display: grid;
+  grid-template-rows: 52px 1fr;
+}
+
+.body {
+  height: 100%;
+  width: 100%;
+}
+
+.rightMenuClosed {
+  //position: absolute;
+  position: relative;
+  right: 0;
+  float: right;
+  background: var(--colorMainBgGrey);
+  border-radius: 7px 0px 0px 7px;
+  height: 52px;
+  width: 20px;
+}
+
+.rightMenuOpened {
+  position: relative;
+  left: 0;
+  background: var(--colorMainBgGrey);
+  border-radius: 0px 7px 7px 0px;
+  height: 52px;
+  width: 20px;
+}
+
+.rightMenuImg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.listContainer {
+  //padding-left: 5px;
+  padding-left: 12px;
+}
+
+.list {
+  padding-left: 5px;
+}
+
+.listHeader {
+  font-weight: bold;
+}
+
+.listItem {
+  text-decoration-line: underline;
+  list-style-type: none;
+  color: var(--colorLinkBlue);
+  cursor: pointer;
+  padding-left: 5px;
+}
+
+.popper {
+  cursor: pointer;
+}
+
+.rMenuLoadingSpinnerContainer {
+  padding: 0 5em;
+}

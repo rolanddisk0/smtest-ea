@@ -1,0 +1,31 @@
+.actions {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.listIcon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.link {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+.fields {
+  margin-top: 1em;
+}
+
+/*Сетка Имя секции - Поля*/
+.grid {
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  row-gap: 1em;
+}

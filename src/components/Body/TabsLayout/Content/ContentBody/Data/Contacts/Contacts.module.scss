@@ -1,0 +1,58 @@
+.content {
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+    grid-template-rows: auto;
+    gap: 0.5em;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 3fr 7fr 1fr 4fr;
+    column-gap: 0.5em;
+    row-gap: 1em;
+}
+
+/*Контактное лицо, Инициатор...*/
+.fieldNameCell {
+    font-weight: bold;
+}
+
+/*Значения полей Контактное лицо, Инициатор...*/
+.fieldValue {
+    color: blue;
+    text-decoration: none;
+}
+
+.cntIconsCell {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.bigIcon {
+    width: 35px;
+    height: 35px;
+    margin-right: 4px;
+}
+
+.miniIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.vipIconCell {
+    display: flex;
+    align-items: center;
+}
+
+.vipIcon {
+    width: 35px;
+    height: 25px;
+}
+
+.noOverflowTextContainer {
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}

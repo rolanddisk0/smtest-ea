@@ -1,0 +1,16 @@
+.list {
+  height: stretch;
+}
+
+.grid {
+    height:  100%;
+    display: grid;
+    grid-template-rows: 50px 1fr 21px;
+    overflow-x: hidden;
+}
+
+.body {
+  height: 100%;
+  width: 100%;
+  min-height: calc(100vh - 120px);
+}

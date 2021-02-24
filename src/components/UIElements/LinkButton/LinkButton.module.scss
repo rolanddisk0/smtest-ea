@@ -1,0 +1,40 @@
+/*Кнопка, которая выглядит как <a>*/
+.btn {
+    max-width: stretch;
+    background: none !important;
+    border: none;
+    padding: 0 !important;
+    /*optional*/
+    /*font-family: arial, sans-serif;*/
+    /*input has OS specific font-family*/
+    /* color: #069;  - we have own link color (blue)*/
+    color: blue;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn:hover {
+   color: var(--colorLinkHoverBlue);
+   outline: none;
+}
+
+.btn:active {
+    border: none;
+    outline: none;
+}
+
+.btn:focus {
+    border: none;
+    outline: none;
+}
+
+.btnText {
+    width: stretch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+//Убирать перенос текста
+.btnText.noWrap {
+    white-space: nowrap;
+}

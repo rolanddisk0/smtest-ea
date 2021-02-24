@@ -1,0 +1,52 @@
+/* Структура заголовка */
+.expansionHeaderGrid {
+    width: stretch;
+    display: grid;
+    grid-template-columns: 1fr 1fr 7fr 2fr 1fr;
+    column-gap: 1em;
+    
+    align-items: center;
+}
+
+/* Заголовок -> Новый алерт? */
+.newAlertCircle {
+    width: 12px;
+    height: 12px;
+    background-color: blue; 
+    border-radius: 50%;
+}
+
+/* Заголовок -> Аватар контакта */
+.avatar {
+    display: flex;
+    align-items: center;
+}
+
+/* Заголовок -> Блок удаления алерта */
+.delIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Заголовок -> Заголовок алерта */
+.title {
+    font-weight: bold;
+}
+
+/* Заголовок -> Дата события */
+.date {
+    color: grey;
+}
+
+/* Контейнер с описанием алерта */
+.descriptionContainer {
+    width: stretch; 
+}
+
+/* Ссылка на связанный объект */
+.relativeObjLink {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1em;
+}

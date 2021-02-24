@@ -1,0 +1,52 @@
+.content {
+  background-color: lightgrey;
+}
+
+.grid {
+  height: 100vh;
+  display: grid;
+  grid-template-areas: 'header' 'body';
+  grid-template-rows: auto 1fr;
+  
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.body {
+  height: 100%;
+}
+
+.initializationGrid {
+  background-color: var(--colorLightGrey);
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 1em;
+  justify-items: center;
+}
+
+.initializationSpinnerContainer {
+  align-self: end;
+}
+
+.initializationTextContainer {
+  align-self: start;
+  text-align: center;
+
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.initializationText {
+  color: var(--colorMainDarkGrey);
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.initializationSubText {
+  color: var(--colorMainDarkGrey);
+  font-size: large;
+  margin-right: 0.5em;
+}

@@ -1,0 +1,20 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
+}
+
+/*Заголовок элементов*/
+.header {
+    font-weight: bold;
+}
+
+/*Значения элементов*/
+.item {
+    color: blue;
+    text-decoration: none;
+}
+
+.editModeItem {
+    width: 250px;
+}

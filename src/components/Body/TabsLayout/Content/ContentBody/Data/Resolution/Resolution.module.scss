@@ -1,0 +1,26 @@
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5em;
+}
+
+.fieldsGrid {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    grid-template-rows: auto;
+}
+
+/*Имена полей*/
+.fieldName {
+    justify-self: end;
+    align-self: center;
+    text-align: end;
+}
+
+/*Сетка Название поля - Значение*/
+.gridFieldValue {
+    margin-bottom: 4px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 0.5em;
+}

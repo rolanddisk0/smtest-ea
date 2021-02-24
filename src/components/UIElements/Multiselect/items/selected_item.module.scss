@@ -1,0 +1,39 @@
+@import "../resources/globals";
+
+.selected_item {
+  width: calc(100% - 90px); // fix
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 0 12px;
+  margin-right: -4px;
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+  &:hover {
+    background-color: $hover-background-color;
+  }
+}
+
+.with_grouping {
+  @extend .selected_item;
+  pointer-events: none;
+  color: $color-black;
+}
+
+.disabled {
+  color: $disabled-color;
+  background-color: $selected-background-color;
+  cursor: default;
+}
+
+.arrow {
+  float: right;
+  //z-index: 200;
+  width: 90px;
+}
+
+.grid {
+  display: flex;
+  //display: grid;
+  //grid-template-columns: auto 90px;
+}

@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 13px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* SplitPane props */
+
+.Resizer {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #000;
+  opacity: 0.2;
+  z-index: 1;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+}
+
+.Resizer:hover {
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+.Resizer.horizontal {
+  height: 11px;
+  margin: -5px 0;
+  border-top: 5px solid rgba(255, 255, 255, 0);
+  border-bottom: 5px solid rgba(255, 255, 255, 0);
+  cursor: row-resize;
+  width: 100%;
+}
+
+.Resizer.horizontal:hover {
+  border-top: 5px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+.Resizer.vertical {
+  width: 11px;
+  margin: 0 -5px;
+  border-left: 5px solid rgba(255, 255, 255, 0);
+  border-right: 5px solid rgba(255, 255, 255, 0);
+  cursor: col-resize;
+}
+
+.Resizer.vertical:hover {
+  border-left: 5px solid rgba(0, 0, 0, 0.5);
+  border-right: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+/* react-virtualized props */
+
+.ReactVirtualized__Table {
+  display: inline-block;
+}
+
+.ReactVirtualized__Table__headerColumn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+}
+
+.ReactVirtualized__Table__headerTruncatedText {
+  flex: auto;
+}
+
+.ReactVirtualized__Table__Grid {
+  outline: none;
+}
+
+.ReactVirtualized__Table__headerColumn {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.ReactVirtualized__Table__rowColumn {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+/* If you put query builder component inside Material-UI's <Dialog /> or <Popover />, please:
+use prop disableEnforceFocus={true} for dialog or popver
+set css .MuiPopover-root, .MuiDialog-root { z-index: 900 !important; } (or 1000 for AntDesign v3) */
+.MuiDialog-root {
+  z-index: 900 !important;
+}
+
+#container {
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  position: absolute;
+  overflow: hidden;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+
+}
+.panel {
+height:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+background-color:#222;
+border:1px solid #555;
+box-sizing: border-box;
+}
+
+.flexlayout__tab {
+  width: 100% !important
+}

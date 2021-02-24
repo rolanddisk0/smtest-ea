@@ -1,0 +1,28 @@
+.title {
+    font-weight: bold;
+}
+
+.stage {
+    border: 2px black solid;
+}
+
+.overallGrid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+}
+
+.overallCountGrid {
+    display: grid;
+    column-gap: 1em;
+    grid-template-columns: repeat(2, auto);
+    justify-content: start;
+    align-items: center;
+}
+
+.overallScaleGrid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: end;
+    align-items: center;
+}

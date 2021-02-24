@@ -1,0 +1,25 @@
+.actions {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 1em;
+  row-gap: 2px;
+
+  color: black;
+}
+
+.onMapText {
+  font-size: small;
+  margin-left: 2em;
+}

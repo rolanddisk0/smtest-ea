@@ -1,0 +1,21 @@
+/*Кнопки. В данном случае кнопка "Домой"*/
+.actions {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+/*Заголовок диалога*/
+.mainTitle {
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+/*Контейнер с кнопками по обработке заявки*/
+.btnsContainer {
+    display: flex;
+    margin: 20px 48px;
+    justify-content: flex-end;
+}

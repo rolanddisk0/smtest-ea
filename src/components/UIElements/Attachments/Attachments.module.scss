@@ -1,0 +1,34 @@
+/*Контейнер с элементом*/
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border: 1px #e8e8e8 solid;
+}
+
+/*Дропзона*/
+.dropzone {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-width: 2px;
+    border-radius: 2px;
+    border-color: #eeeeee;
+    border-style: dashed;
+    background-color: #fafafa;
+    color: #bdbdbd;
+    outline: none;
+    transition: border .24s ease-in-out;
+    margin-bottom: 1em;
+}
+
+.dropzone:focus {
+    border-color: #2196f3;
+}
+
+/*Слово-заголовок для прикрепленных файлов*/
+.filesString {
+    font-weight: bold;
+}

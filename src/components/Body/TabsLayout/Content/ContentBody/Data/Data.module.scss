@@ -1,0 +1,20 @@
+.content {
+    grid-area: contentData;
+}
+
+/*Общий блок-секция (Контакты, назначение, решение...)*/
+.sectionBlock {
+    padding: 8px;
+}
+
+/*Контейнер с логотипом секции*/
+.sectionIconCell {
+    display: flex;
+    align-items: center;
+}
+
+/*Логотип секции */
+.sectionIcon {
+    width: 40px; 
+    height: 40px;
+}

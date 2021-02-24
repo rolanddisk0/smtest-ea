@@ -1,0 +1,35 @@
+/*Вертикальная сетка*/
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1em;
+}
+
+/*Поля разбиваем на 2 колоки*/
+.twoColumnsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
+    align-items: flex-start;
+}
+
+/*Выбор шаблона*/
+.selectTemplateContainer {
+    justify-self: flex-end;
+    width: 500px;
+}
+
+/*Контейнер с кнопками по обработке заявки*/
+.btnsContainer {
+    display: flex;
+    margin: 20px 48px;
+    justify-content: flex-end;
+}
+
+.columnGrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 1em;
+    row-gap: 0.5em;
+    align-items: center;
+}

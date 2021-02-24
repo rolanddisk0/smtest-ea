@@ -1,0 +1,26 @@
+.card {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  justify-items: center;
+}
+
+.content {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  justify-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.title {
+  font-size: 14px;
+}
+
+.icon {
+  background-color: 'white'
+}

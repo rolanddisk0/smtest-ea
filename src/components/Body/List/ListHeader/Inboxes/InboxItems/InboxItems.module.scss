@@ -1,0 +1,20 @@
+.header {
+    font-weight: bold;
+}
+
+.panelContainer {
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 20px;
+}
+
+/*Защита от длинных значений*/
+.noOverflowTextContainer {
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}

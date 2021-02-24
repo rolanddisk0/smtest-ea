@@ -1,0 +1,12 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1em;
+}
+
+/*Контейнер с кнопками по обработке заявки*/
+.btnsContainer {
+    display: flex;
+    margin: 20px 48px;
+    justify-content: flex-end;
+}

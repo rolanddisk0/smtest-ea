@@ -1,0 +1,67 @@
+.dialog {
+  width: 35%;
+  min-width: 500px;
+}
+
+.title {
+  text-align: center;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow-y: auto;
+  position: relative;
+}
+
+.listItem {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 0;
+  margin: 0;
+}
+
+.line {
+  padding: 4px 8px 3px 10px;
+  width: 100%;
+  flex-grow: 1;
+  flex-basis: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  border-bottom: 1px solid #eeeeee;
+  cursor: pointer;
+}
+
+.line:hover {
+  background-color: #E0ECF8;
+}
+
+
+/*Контейнер с кнопками по обработке заявки*/
+.btnsContainer {
+  display: flex;
+  margin: 20px 48px;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 0;
+}
+
+.filter {
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+}
+
+.listContainer {
+  margin: 0px auto;
+  position: relative;
+}
+
+.container {
+  margin: 0px auto;
+  position: relative;
+}

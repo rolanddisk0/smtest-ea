@@ -1,0 +1,39 @@
+/*Кнопка(-и) внизу*/
+.actions {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+/*Заголовок Иконка + текст*/
+.header {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 1em;
+    align-items: center;
+    justify-items: center;
+}
+
+/*Иконка диалога (Почему-то именно эта обрезается снизу)*/
+.dialogIcon {
+    width: 80px;
+    height: 80px;
+}
+
+/*Заголовок*/
+.title {
+    font-weight: bold;
+    font-size: xx-large;
+    color: black;
+}
+
+/*Список элементов*/
+.list {
+    margin-top: 16px;
+}
+
+/*Каждый элемент списка*/
+.list li {
+    list-style-type: none;
+    margin-bottom: 8px;
+}

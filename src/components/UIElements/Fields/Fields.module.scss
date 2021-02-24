@@ -1,0 +1,25 @@
+/*Сетка Имя поля - Значение*/
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+/*Имена полей*/
+.fieldNames {
+  text-align: right;
+  padding-right: 16px;
+}
+
+/*Значения полей*/
+.fieldValue {
+  color: blue;
+  text-decoration: none;
+}
+
+/*Защита от длинных значений*/
+.noOverflowTextContainer {
+  white-space: nowrap;
+  overflow: hidden; 
+  text-overflow: ellipsis;
+}

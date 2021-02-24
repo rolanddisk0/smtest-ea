@@ -1,0 +1,44 @@
+.actions {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+/*Контейнер иконки "Домой" в модальниках*/
+.homeIconContainer {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/*Иконки в этих контейнерах*/
+.homeIconContainer:hover {
+    cursor: pointer;
+}
+
+/*Иконка "Домой" в модальниках*/
+.homeIconContainer img {
+    width: 100%;
+    height: 100%;
+}
+
+/*Главная сетка, содержащая в себе все разделы*/
+.mainGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1em;
+}
+
+/*Общая сетка для всех разделов*/
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 1em;
+    row-gap: 2px;
+
+    color: black;
+}

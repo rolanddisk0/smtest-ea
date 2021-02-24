@@ -1,0 +1,29 @@
+/*Кнопка(-и) внизу*/
+.actions {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+/*Общая сетка для содержимого*/
+.contentGrid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 1em;
+    row-gap: 0.5em;
+    align-items: center;
+  }
+  
+  .tabs {
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    background-color: var(--colorMainDarkGrey);
+    color: white;
+  }
+  
+  .panels {
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+  }

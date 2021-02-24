@@ -1,0 +1,13 @@
+.content {
+    height: stretch;
+    overflow-x: auto;
+    overflow-y: auto;
+    min-width: 720px;
+}
+
+.grid {
+    height: stretch;
+    display: grid;
+    grid-template-areas: 'cHeader' 'cBody' 'cFooter';
+    grid-template-rows: auto 1fr auto;
+}

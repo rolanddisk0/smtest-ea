@@ -1,0 +1,14 @@
+.content {
+    justify-self: end;
+    margin-right: 8px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-content: center;
+    column-gap: 1em;
+}
+
+.containerShort {
+    width: 40px;
+    height: 40px;
+}

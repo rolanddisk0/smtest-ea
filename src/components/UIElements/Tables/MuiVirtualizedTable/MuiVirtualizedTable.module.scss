@@ -1,0 +1,64 @@
+.tableCell {
+  flex: 1;
+  border-left: 1px solid rgb(59, 59, 66);
+  border-right: 1px solid rgb(59, 59, 66);
+  padding-left: 2px;
+  height: 20px;
+}
+
+.headerCell {
+  flex: 1;
+  background-color: var(--colorMainDarkGrey);
+  border: 1px solid rgb(59, 59, 66);
+  color: white;
+  white-space: nowrap;
+  overflow-x: hidden;
+  padding-left: 2px;
+  font-weight: 600;
+}
+
+.tableRow:hover > div{
+  background-color: rgb(152, 184, 231);
+}
+
+.tableRow:nth-child(even) {
+  background-color: #EEE7E7;
+}
+
+.DragHandle {
+  flex: 0 0 16px;
+  z-index: 2;
+  cursor: col-resize;
+  color: #0085ff;
+}
+
+.DragHandleActive,
+.DragHandleActive:hover {
+  color: #0b6fcc;
+  z-index: 3;
+}
+
+.DragHandleIcon {
+  flex: 0 0 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--colorMainDarkGrey);
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+.purple {
+  color: purple;
+}
